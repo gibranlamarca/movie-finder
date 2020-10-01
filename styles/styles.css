@@ -1,0 +1,36 @@
+body{
+    background-image:url("../images/background.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+header{
+    width: 70vw;
+    height: 10vh;
+    padding-top: 20px;
+    margin: 0 auto!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+
+}
+#logo{
+    width: 12rem;
+}
+.container-buttons{
+    display: flex;
+    width: 28vw;
+    height: 5vh;
+    margin: 10px auto 0 auto!important;
+}
+button{
+    float: left;
+    border: 1px solid grey;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    width: 100%!important;
+}
+button:focus{
+    background: #13A84D;
+    outline: none;
+}
