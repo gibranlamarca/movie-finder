@@ -2,6 +2,7 @@ body{
     background-image:url("../images/background.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header{
     width: 70vw;
@@ -33,4 +34,31 @@ button{
 button:focus{
     background: #13A84D;
     outline: none;
+}
+.movie {
+    margin-top: 5px;
+}
+section {
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    transition: 250ms all;
+}
+section img{
+    width: 150px;
+    transition: 250ms all;
+    margin: 10px;
+}
+img:hover{
+    margin-left: 0 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+section .imageContainer {
+    flex: 0 0 auto;
 }
