@@ -38,7 +38,7 @@ button:focus{
 .movie {
     margin-top: 5px;
 }
-section {
+.section-filmes {
     position: relative;
     width: 100%;
     margin-top: 15px;
@@ -49,16 +49,27 @@ section {
     overflow-y: scroll;
     transition: 250ms all;
 }
-section img{
+.section-filmes img{
     width: 150px;
     transition: 250ms all;
     margin: 10px;
 }
-img:hover{
+.section-filmes img:hover{
     margin-left: 0 40px;
     transform: scale(1.2);
     cursor: pointer;
 }
-section .imageContainer {
-    flex: 0 0 auto;
+
+.section-individual{
+    width: 100vw;
+    margin-left: 25px;
+    margin-top: 0px!important;
+    position: relative;
+    display: flex;
+    background: red;
+    height: 300px;
+}
+.section-individual img{
+    width: 300px;
+    margin: 5px;
 }
